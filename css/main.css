@@ -62,16 +62,32 @@ th {
 
     body {
         font-size: 18px;
+        margin: 4vw;
     }
 
     nav {
         display: flex;
         flex-direction: column;
-        gap: 10px;
+        align-items: flex-start;
+        gap: 2vw;
     }
 
     h1 {
-        font-size: 30px;
+        font-size: 8vw;
+    }
+    h2 {
+        font-size: 6vw;
+    }
+    h3 {
+        font-size: 5vw;
+    }
+    .btn-primary {
+        max-width: 90%;
+    }
+
+    table {
+        max-width: 100%;
+        overflow-x: auto;
     }
 
 }
