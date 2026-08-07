@@ -46,3 +46,32 @@ th {
     padding: 10px;
     border: 1px solid #999;
 }
+
+.video-container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.video-container iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border: none;
+}
+
+@media (max-width: 768px) {
+
+    body {
+        font-size: 18px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+}
